@@ -1,0 +1,29 @@
+[project]
+name = "umbral-fraude"
+version = "0.1.0"
+description = "Laboratorio clase 4: umbral de un modelo de fraude, costo de los errores, SHAP, LIME y expediente"
+readme = "README.md"
+authors = [{ name = "German Goni", email = "ggoni@uc.cl" }]
+requires-python = ">=3.13"
+dependencies = [
+    "ipywidgets>=8.1.9",
+    "lime>=0.2.0.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "scikit-learn>=1.9.1",
+    "shap>=0.54.1",
+]
+
+[project.scripts]
+fraude = "umbral_fraude.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.9.9,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = ["pytest>=9.1.1", "ruff>=0.17.2"]
+
+[tool.ruff]
+line-length = 100
