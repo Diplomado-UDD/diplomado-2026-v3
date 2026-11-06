@@ -1,0 +1,39 @@
+[project]
+name = "actividades-v3"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=2.3.0",
+    "catboost>=1.2.10",
+    "google-genai>=2.34.0",
+    "ipywidgets>=8.1.9",
+    "joblib>=1.6.0",
+    "lime>=0.2.0.1",
+    "matplotlib>=3.11.2",
+    "modelo",
+    "numpy>=2.5.4",
+    "openpyxl>=3.1.5",
+    "pandas>=3.1.0",
+    "python-dotenv>=1.2.4",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+    "sentence-transformers>=6.2.0",
+    "shap>=0.54.1",
+    "tiktoken>=0.14.0",
+    "typesafe-sdk>=0.7.5",
+    "xgboost>=3.4.1",
+]
+
+[tool.uv.workspace]
+members = [
+    "clase_02-ml-inmuebles/modelo",
+]
+
+[tool.uv.sources]
+modelo = { workspace = true, editable = true }
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
+]
