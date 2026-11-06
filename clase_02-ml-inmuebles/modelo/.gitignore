@@ -1,0 +1,6 @@
+.venv/
+.pytest_cache/
+.ruff_cache/
+catboost_info/
+artifacts/*.joblib
+.ipynb_checkpoints/
