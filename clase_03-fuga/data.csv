@@ -1,0 +1,501 @@
+customer_id,nombre,antiguedad_meses,gasto_total,num_compras,dias_ultima_compra,inactividad_relativa,tickets_soporte,nps,categoria_favorita,ultimo_producto,churn
+C0000,Cristóbal,8,105377.0,10,89,11.12,1,5,Hogar,Set de ollas,0
+C0001,Sebastián,47,108966.0,8,43,0.91,2,0,Libros,Libro de cocina chilena,0
+C0002,Antonia,40,350362.0,13,169,4.22,2,7,Hogar,Aspiradora robot,0
+C0003,Antonia,28,110337.0,13,26,0.93,3,0,Moda,Polerón con capucha,0
+C0004,Javier,28,166299.0,9,10,0.36,1,8,Deportes,Set yoga,1
+C0005,Felipe,52,21753.0,8,93,1.79,0,7,Electrónica,Reloj smartwatch,0
+C0006,Javier,7,403129.0,10,29,4.14,0,8,Hogar,Cafetera espresso,0
+C0007,Sebastián,43,243927.0,9,69,1.6,0,1,Electrónica,Notebook Lenovo,0
+C0008,Catalina,14,127100.0,7,32,2.29,3,9,Hogar,Cafetera espresso,0
+C0009,Fernanda,8,101688.0,10,6,0.75,2,6,Electrónica,Notebook Lenovo,1
+C0010,Sebastián,33,203017.0,10,5,0.15,2,9,Hogar,Set de ollas,0
+C0011,Constanza,59,295650.0,9,18,0.31,2,7,Libros,Libro de cocina chilena,0
+C0012,Cristóbal,45,406721.0,7,5,0.11,2,7,Deportes,Zapatillas running,0
+C0013,Cristóbal,47,238432.0,9,3,0.06,4,0,Moda,Polerón con capucha,1
+C0014,Matías,44,140325.0,15,134,3.05,1,7,Electrónica,Audífonos Bluetooth,0
+C0015,Camila,48,263875.0,9,11,0.23,3,4,Moda,Polerón con capucha,0
+C0016,Sebastián,32,231555.0,14,36,1.12,2,9,Libros,Libro de cocina chilena,0
+C0017,Antonia,10,140737.0,14,1,0.1,0,7,Moda,Polerón con capucha,0
+C0018,Catalina,51,226889.0,8,23,0.45,1,0,Electrónica,Audífonos Bluetooth,0
+C0019,Cristóbal,29,223944.0,10,11,0.38,0,9,Libros,Libro de cocina chilena,0
+C0020,Diego,32,126537.0,9,24,0.75,0,0,Moda,Polerón con capucha,0
+C0021,Constanza,24,86649.0,13,91,3.79,1,3,Hogar,Aspiradora robot,0
+C0022,Catalina,13,210611.0,5,18,1.38,2,2,Hogar,Set de ollas,0
+C0023,Constanza,56,53649.0,12,51,0.91,0,10,Hogar,Cafetera espresso,0
+C0024,Valentina,48,43022.0,7,14,0.29,0,1,Libros,El problema de los tres cuerpos,1
+C0025,Constanza,40,168223.0,11,55,1.38,1,9,Libros,Libro de cocina chilena,0
+C0026,Matías,26,206606.0,11,6,0.23,2,2,Hogar,Aspiradora robot,0
+C0027,Sebastián,50,167303.0,7,53,1.06,1,7,Hogar,Set de ollas,1
+C0028,Constanza,34,180811.0,13,59,1.74,2,0,Libros,Libro de cocina chilena,1
+C0029,Matías,28,204147.0,9,2,0.07,3,4,Electrónica,Audífonos Bluetooth,1
+C0030,Matías,29,351239.0,2,1,0.03,1,6,Hogar,Aspiradora robot,0
+C0031,Camila,16,241273.0,7,45,2.81,0,7,Moda,Polerón con capucha,0
+C0032,Fernanda,8,236274.0,13,18,2.25,0,9,Moda,Polerón con capucha,0
+C0033,Cristóbal,35,158860.0,13,89,2.54,2,8,Electrónica,Reloj smartwatch,0
+C0034,Valentina,54,163249.0,14,218,4.04,0,5,Hogar,Cafetera espresso,0
+C0035,Diego,6,118670.0,8,34,5.67,2,3,Hogar,Aspiradora robot,1
+C0036,Antonia,52,176979.0,5,42,0.81,4,2,Electrónica,Reloj smartwatch,1
+C0037,Sebastián,51,51166.0,4,14,0.27,0,10,Libros,El problema de los tres cuerpos,0
+C0038,Sebastián,19,352325.0,9,155,8.16,1,6,Libros,El problema de los tres cuerpos,0
+C0039,Antonia,39,65165.0,11,43,1.1,1,9,Moda,Polerón con capucha,0
+C0040,Felipe,12,240936.0,7,31,2.58,5,4,Electrónica,Notebook Lenovo,1
+C0041,Javier,46,323072.0,11,28,0.61,1,5,Hogar,Aspiradora robot,0
+C0042,Camila,43,240543.0,9,3,0.07,2,9,Hogar,Cafetera espresso,0
+C0043,Camila,23,547155.0,9,50,2.17,0,7,Electrónica,Notebook Lenovo,0
+C0044,Camila,6,14995.0,11,8,1.33,1,2,Moda,Polerón con capucha,0
+C0045,Catalina,59,91429.0,11,8,0.14,1,5,Moda,Polerón con capucha,0
+C0046,Felipe,28,319469.0,11,53,1.89,2,2,Libros,Libro de cocina chilena,0
+C0047,Antonia,54,41340.0,9,3,0.06,0,8,Moda,Polerón con capucha,1
+C0048,Felipe,42,66983.0,9,33,0.79,3,0,Hogar,Cafetera espresso,0
+C0049,Javier,48,195129.0,6,40,0.83,5,9,Electrónica,Notebook Lenovo,0
+C0050,Diego,47,139026.0,7,3,0.06,2,10,Moda,Polerón con capucha,0
+C0051,Fernanda,14,186629.0,6,14,1.0,6,0,Moda,Polerón con capucha,1
+C0052,Valentina,24,148127.0,7,66,2.75,0,6,Electrónica,Reloj smartwatch,0
+C0053,Sebastián,30,158435.0,11,37,1.23,2,0,Deportes,Mochila trekking,0
+C0054,Fernanda,31,72994.0,6,20,0.65,2,3,Hogar,Cafetera espresso,0
+C0055,Javier,5,154706.0,8,10,2.0,2,3,Hogar,Cafetera espresso,0
+C0056,Fernanda,34,96662.0,10,39,1.15,3,5,Libros,El problema de los tres cuerpos,0
+C0057,Felipe,11,107719.0,10,18,1.64,1,10,Electrónica,Notebook Lenovo,0
+C0058,Matías,46,238665.0,8,27,0.59,0,5,Electrónica,Audífonos Bluetooth,0
+C0059,Valentina,42,39255.0,9,48,1.14,1,4,Hogar,Aspiradora robot,0
+C0060,Javier,56,8372.0,10,86,1.54,2,1,Hogar,Cafetera espresso,0
+C0061,Diego,46,226678.0,8,176,3.83,4,9,Moda,Polerón con capucha,1
+C0062,Diego,24,154822.0,5,63,2.62,0,3,Electrónica,Audífonos Bluetooth,1
+C0063,Cristóbal,59,322834.0,5,49,0.83,0,5,Moda,Polerón con capucha,0
+C0064,Camila,26,68607.0,5,172,6.62,3,1,Moda,Polerón con capucha,0
+C0065,Constanza,21,123458.0,17,15,0.71,0,3,Moda,Polerón con capucha,0
+C0066,Camila,55,143076.0,10,32,0.58,2,6,Moda,Polerón con capucha,0
+C0067,Constanza,24,80884.0,6,28,1.17,1,9,Moda,Polerón con capucha,0
+C0068,Javier,7,61034.0,11,46,6.57,0,3,Libros,Libro de cocina chilena,0
+C0069,Constanza,30,234738.0,12,50,1.67,1,6,Moda,Polerón con capucha,0
+C0070,Felipe,49,35467.0,8,141,2.88,2,9,Deportes,Zapatillas running,0
+C0071,Fernanda,13,52154.0,8,8,0.62,1,3,Hogar,Set de ollas,0
+C0072,Matías,29,120248.0,8,35,1.21,0,3,Electrónica,Reloj smartwatch,0
+C0073,Felipe,10,254023.0,11,20,2.0,3,0,Deportes,Set yoga,0
+C0074,Antonia,42,85444.0,8,8,0.19,3,9,Libros,El problema de los tres cuerpos,0
+C0075,Cristóbal,30,76532.0,10,7,0.23,1,1,Electrónica,Notebook Lenovo,0
+C0076,Fernanda,22,114728.0,7,17,0.77,2,2,Libros,Libro de cocina chilena,0
+C0077,Diego,16,174314.0,13,18,1.12,3,1,Hogar,Set de ollas,1
+C0078,Antonia,35,100971.0,10,103,2.94,2,7,Electrónica,Audífonos Bluetooth,0
+C0079,Fernanda,41,276718.0,12,21,0.51,1,4,Hogar,Cafetera espresso,0
+C0080,Constanza,57,284754.0,8,38,0.67,6,7,Deportes,Zapatillas running,1
+C0081,Sebastián,28,120243.0,8,48,1.71,0,6,Hogar,Cafetera espresso,0
+C0082,Matías,12,453383.0,2,41,3.42,3,0,Hogar,Aspiradora robot,1
+C0083,Constanza,51,140628.0,13,24,0.47,1,3,Moda,Polerón con capucha,0
+C0084,Diego,39,278236.0,9,106,2.72,1,0,Moda,Polerón con capucha,0
+C0085,Javier,43,170776.0,6,95,2.21,1,0,Electrónica,Audífonos Bluetooth,1
+C0086,Felipe,8,168452.0,11,35,4.38,1,5,Libros,El problema de los tres cuerpos,0
+C0087,Fernanda,21,27325.0,6,3,0.14,1,2,Hogar,Set de ollas,0
+C0088,Antonia,47,48023.0,6,25,0.53,1,0,Moda,Polerón con capucha,0
+C0089,Diego,51,105287.0,10,17,0.33,2,4,Hogar,Cafetera espresso,0
+C0090,Javier,28,283284.0,9,32,1.14,1,4,Electrónica,Reloj smartwatch,0
+C0091,Antonia,49,172565.0,7,26,0.53,0,10,Moda,Polerón con capucha,0
+C0092,Diego,51,106068.0,8,33,0.65,1,7,Moda,Polerón con capucha,0
+C0093,Sebastián,25,208049.0,6,46,1.84,3,4,Hogar,Set de ollas,0
+C0094,Catalina,55,276152.0,7,50,0.91,1,5,Moda,Polerón con capucha,1
+C0095,Javier,19,133989.0,11,47,2.47,0,0,Moda,Polerón con capucha,0
+C0096,Sebastián,16,157725.0,10,59,3.69,3,4,Moda,Polerón con capucha,1
+C0097,Catalina,42,143011.0,6,71,1.69,0,6,Moda,Polerón con capucha,0
+C0098,Matías,39,127554.0,15,25,0.64,1,0,Moda,Polerón con capucha,0
+C0099,Fernanda,11,67944.0,8,122,11.09,2,10,Hogar,Aspiradora robot,0
+C0100,Fernanda,51,63306.0,12,145,2.84,0,5,Hogar,Cafetera espresso,0
+C0101,Valentina,14,207122.0,11,15,1.07,1,8,Moda,Polerón con capucha,0
+C0102,Constanza,49,279764.0,8,103,2.1,0,3,Hogar,Set de ollas,0
+C0103,Felipe,3,105901.0,10,47,15.67,2,9,Hogar,Aspiradora robot,1
+C0104,Antonia,49,103927.0,9,41,0.84,1,4,Libros,El problema de los tres cuerpos,0
+C0105,Valentina,48,19530.0,9,9,0.19,2,10,Moda,Polerón con capucha,1
+C0106,Diego,48,15303.0,9,40,0.83,0,5,Hogar,Cafetera espresso,0
+C0107,Felipe,41,329618.0,7,25,0.61,2,7,Electrónica,Reloj smartwatch,0
+C0108,Diego,30,71975.0,12,240,8.0,4,2,Electrónica,Notebook Lenovo,0
+C0109,Camila,43,572081.0,8,76,1.77,1,10,Electrónica,Notebook Lenovo,0
+C0110,Javier,19,83489.0,8,35,1.84,2,2,Deportes,Set yoga,0
+C0111,Valentina,48,28365.0,8,75,1.56,4,0,Moda,Polerón con capucha,1
+C0112,Camila,35,143873.0,9,28,0.8,0,4,Hogar,Cafetera espresso,0
+C0113,Matías,29,232819.0,8,4,0.14,1,9,Electrónica,Audífonos Bluetooth,1
+C0114,Diego,32,214954.0,8,108,3.38,2,10,Moda,Polerón con capucha,0
+C0115,Valentina,35,249216.0,4,40,1.14,1,9,Hogar,Aspiradora robot,0
+C0116,Fernanda,5,56139.0,10,17,3.4,0,6,Deportes,Mochila trekking,0
+C0117,Valentina,11,324345.0,9,55,5.0,3,10,Libros,Libro de cocina chilena,0
+C0118,Sebastián,17,337221.0,11,94,5.53,0,5,Libros,Libro de cocina chilena,0
+C0119,Camila,9,347138.0,14,69,7.67,0,5,Hogar,Cafetera espresso,0
+C0120,Camila,28,161821.0,12,24,0.86,0,1,Electrónica,Notebook Lenovo,0
+C0121,Catalina,41,99351.0,16,4,0.1,3,8,Hogar,Set de ollas,0
+C0122,Antonia,40,92164.0,9,92,2.3,1,3,Moda,Polerón con capucha,1
+C0123,Javier,30,28188.0,13,30,1.0,2,2,Libros,Libro de cocina chilena,0
+C0124,Sebastián,52,85071.0,10,1,0.02,1,4,Electrónica,Audífonos Bluetooth,0
+C0125,Javier,35,7421.0,10,8,0.23,3,6,Moda,Polerón con capucha,0
+C0126,Javier,7,23992.0,11,2,0.29,1,2,Moda,Polerón con capucha,0
+C0127,Matías,47,160583.0,7,52,1.11,2,3,Hogar,Aspiradora robot,0
+C0128,Antonia,36,108839.0,10,100,2.78,2,3,Electrónica,Audífonos Bluetooth,0
+C0129,Antonia,39,155462.0,5,59,1.51,1,6,Hogar,Cafetera espresso,0
+C0130,Fernanda,35,220471.0,9,10,0.29,1,7,Hogar,Aspiradora robot,0
+C0131,Diego,35,177184.0,7,120,3.43,0,7,Moda,Polerón con capucha,0
+C0132,Diego,8,166350.0,13,9,1.12,2,1,Hogar,Cafetera espresso,0
+C0133,Sebastián,35,124539.0,11,86,2.46,0,3,Electrónica,Notebook Lenovo,0
+C0134,Cristóbal,49,69669.0,8,38,0.78,2,7,Moda,Polerón con capucha,0
+C0135,Felipe,20,41680.0,10,1,0.05,1,2,Hogar,Set de ollas,0
+C0136,Felipe,37,86999.0,13,10,0.27,0,0,Libros,Libro de cocina chilena,1
+C0137,Camila,4,126166.0,6,5,1.25,2,3,Hogar,Aspiradora robot,0
+C0138,Cristóbal,23,138685.0,6,39,1.7,1,7,Deportes,Mochila trekking,0
+C0139,Catalina,28,249587.0,11,66,2.36,3,7,Moda,Polerón con capucha,0
+C0140,Sebastián,59,117515.0,12,50,0.85,2,1,Electrónica,Audífonos Bluetooth,0
+C0141,Matías,15,198374.0,8,94,6.27,2,7,Moda,Polerón con capucha,0
+C0142,Antonia,19,32724.0,14,48,2.53,1,2,Electrónica,Notebook Lenovo,0
+C0143,Antonia,26,162269.0,8,9,0.35,1,8,Hogar,Cafetera espresso,0
+C0144,Catalina,60,153917.0,5,58,0.97,2,6,Hogar,Set de ollas,0
+C0145,Camila,52,324420.0,5,41,0.79,2,1,Electrónica,Audífonos Bluetooth,1
+C0146,Sebastián,5,108917.0,6,29,5.8,1,3,Electrónica,Audífonos Bluetooth,1
+C0147,Felipe,16,105235.0,4,88,5.5,2,9,Deportes,Zapatillas running,0
+C0148,Matías,50,221562.0,10,200,4.0,1,4,Electrónica,Reloj smartwatch,0
+C0149,Cristóbal,6,44992.0,11,21,3.5,1,7,Moda,Polerón con capucha,1
+C0150,Javier,52,159159.0,8,32,0.62,1,8,Moda,Polerón con capucha,0
+C0151,Camila,19,42740.0,6,45,2.37,1,0,Hogar,Aspiradora robot,1
+C0152,Fernanda,56,423759.0,13,61,1.09,3,10,Libros,Libro de cocina chilena,0
+C0153,Camila,20,94169.0,6,58,2.9,1,3,Electrónica,Notebook Lenovo,0
+C0154,Valentina,28,39964.0,11,4,0.14,1,8,Libros,Libro de cocina chilena,0
+C0155,Constanza,41,86470.0,4,1,0.02,1,5,Hogar,Aspiradora robot,1
+C0156,Felipe,10,159882.0,10,44,4.4,2,6,Deportes,Set yoga,0
+C0157,Javier,35,193963.0,13,7,0.2,0,3,Moda,Polerón con capucha,0
+C0158,Matías,32,313021.0,5,18,0.56,2,9,Libros,Libro de cocina chilena,0
+C0159,Catalina,48,77799.0,11,40,0.83,0,1,Electrónica,Reloj smartwatch,0
+C0160,Matías,60,228669.0,9,7,0.12,0,9,Libros,El problema de los tres cuerpos,0
+C0161,Antonia,41,24020.0,8,76,1.85,2,2,Deportes,Mochila trekking,1
+C0162,Catalina,26,52499.0,10,38,1.46,0,9,Electrónica,Notebook Lenovo,0
+C0163,Antonia,26,33721.0,8,2,0.08,1,0,Electrónica,Notebook Lenovo,0
+C0164,Fernanda,27,66173.0,6,1,0.04,1,0,Hogar,Aspiradora robot,1
+C0165,Catalina,50,221479.0,13,15,0.3,4,1,Hogar,Cafetera espresso,0
+C0166,Antonia,21,79443.0,10,17,0.81,0,6,Electrónica,Reloj smartwatch,0
+C0167,Fernanda,12,92805.0,9,40,3.33,2,2,Moda,Polerón con capucha,0
+C0168,Sebastián,22,163080.0,12,7,0.32,1,6,Libros,El problema de los tres cuerpos,0
+C0169,Fernanda,4,188151.0,13,35,8.75,0,9,Libros,Libro de cocina chilena,0
+C0170,Antonia,9,95178.0,6,33,3.67,4,0,Libros,Libro de cocina chilena,1
+C0171,Matías,8,52151.0,13,28,3.5,0,5,Electrónica,Notebook Lenovo,0
+C0172,Sebastián,47,378508.0,7,119,2.53,2,8,Deportes,Zapatillas running,0
+C0173,Matías,44,95704.0,7,35,0.8,0,4,Hogar,Aspiradora robot,0
+C0174,Matías,43,103769.0,9,1,0.02,2,10,Moda,Polerón con capucha,0
+C0175,Constanza,29,114664.0,10,42,1.45,4,7,Electrónica,Reloj smartwatch,0
+C0176,Valentina,44,202594.0,3,5,0.11,3,0,Moda,Polerón con capucha,0
+C0177,Matías,12,30885.0,6,18,1.5,1,5,Deportes,Set yoga,0
+C0178,Antonia,55,477545.0,10,22,0.4,5,4,Electrónica,Reloj smartwatch,0
+C0179,Matías,32,101441.0,9,21,0.66,3,1,Deportes,Mochila trekking,0
+C0180,Valentina,57,207506.0,6,10,0.18,3,10,Hogar,Aspiradora robot,0
+C0181,Camila,11,40441.0,5,63,5.73,0,2,Moda,Polerón con capucha,0
+C0182,Matías,31,151042.0,5,39,1.26,1,0,Electrónica,Audífonos Bluetooth,0
+C0183,Matías,43,429709.0,12,25,0.58,1,2,Hogar,Set de ollas,0
+C0184,Catalina,31,390424.0,4,93,3.0,1,9,Hogar,Aspiradora robot,0
+C0185,Valentina,28,203647.0,7,34,1.21,0,6,Deportes,Mochila trekking,0
+C0186,Javier,12,62212.0,5,33,2.75,1,9,Deportes,Set yoga,0
+C0187,Constanza,25,301858.0,11,17,0.68,0,5,Electrónica,Reloj smartwatch,0
+C0188,Felipe,16,23811.0,5,37,2.31,1,1,Deportes,Zapatillas running,0
+C0189,Camila,20,60161.0,10,16,0.8,1,4,Moda,Polerón con capucha,1
+C0190,Camila,42,125083.0,9,47,1.12,2,2,Hogar,Set de ollas,0
+C0191,Matías,39,26399.0,6,20,0.51,1,6,Libros,El problema de los tres cuerpos,0
+C0192,Matías,38,86306.0,7,27,0.71,2,2,Libros,El problema de los tres cuerpos,0
+C0193,Valentina,23,231927.0,12,64,2.78,4,10,Libros,Libro de cocina chilena,0
+C0194,Javier,58,72359.0,5,2,0.03,2,4,Libros,Libro de cocina chilena,0
+C0195,Felipe,8,239624.0,10,10,1.25,1,3,Deportes,Mochila trekking,0
+C0196,Diego,22,561831.0,10,43,1.95,1,10,Electrónica,Notebook Lenovo,0
+C0197,Felipe,9,177517.0,3,6,0.67,1,5,Moda,Polerón con capucha,0
+C0198,Sebastián,22,236730.0,8,33,1.5,1,1,Hogar,Cafetera espresso,1
+C0199,Diego,58,308894.0,5,60,1.03,3,5,Hogar,Set de ollas,0
+C0200,Valentina,24,93231.0,12,9,0.38,0,2,Electrónica,Audífonos Bluetooth,0
+C0201,Javier,55,232818.0,10,7,0.13,1,7,Hogar,Set de ollas,0
+C0202,Felipe,31,91337.0,8,43,1.39,1,6,Hogar,Cafetera espresso,0
+C0203,Constanza,43,168473.0,5,16,0.37,6,8,Hogar,Set de ollas,0
+C0204,Matías,29,257812.0,12,1,0.03,4,10,Libros,El problema de los tres cuerpos,0
+C0205,Camila,18,64880.0,6,16,0.89,6,8,Moda,Polerón con capucha,1
+C0206,Matías,47,8590.0,7,14,0.3,1,3,Libros,Libro de cocina chilena,0
+C0207,Matías,59,59391.0,13,44,0.75,1,2,Hogar,Set de ollas,0
+C0208,Diego,18,284476.0,7,121,6.72,1,5,Electrónica,Reloj smartwatch,1
+C0209,Catalina,48,52693.0,11,24,0.5,3,4,Electrónica,Reloj smartwatch,0
+C0210,Constanza,18,273696.0,7,26,1.44,0,3,Moda,Polerón con capucha,0
+C0211,Diego,44,59667.0,11,18,0.41,4,8,Libros,Libro de cocina chilena,0
+C0212,Sebastián,48,111737.0,9,10,0.21,4,10,Deportes,Zapatillas running,0
+C0213,Constanza,29,131929.0,7,108,3.72,0,4,Moda,Polerón con capucha,0
+C0214,Valentina,45,52456.0,7,13,0.29,1,7,Electrónica,Reloj smartwatch,0
+C0215,Felipe,18,112736.0,8,118,6.56,2,10,Electrónica,Reloj smartwatch,1
+C0216,Javier,7,28272.0,7,18,2.57,0,0,Libros,El problema de los tres cuerpos,1
+C0217,Sebastián,8,100272.0,15,275,34.38,2,4,Deportes,Set yoga,1
+C0218,Javier,28,123645.0,9,15,0.54,1,8,Hogar,Cafetera espresso,0
+C0219,Javier,55,9265.0,11,8,0.15,3,5,Libros,El problema de los tres cuerpos,0
+C0220,Camila,10,58927.0,18,177,17.7,1,8,Hogar,Set de ollas,1
+C0221,Camila,29,164700.0,7,59,2.03,1,5,Libros,El problema de los tres cuerpos,0
+C0222,Matías,43,46842.0,4,63,1.47,0,0,Hogar,Set de ollas,1
+C0223,Catalina,14,185137.0,8,152,10.86,2,4,Hogar,Set de ollas,0
+C0224,Cristóbal,44,198416.0,12,43,0.98,0,4,Libros,El problema de los tres cuerpos,0
+C0225,Camila,20,164172.0,14,13,0.65,1,9,Moda,Polerón con capucha,0
+C0226,Catalina,49,230872.0,10,27,0.55,2,1,Electrónica,Audífonos Bluetooth,0
+C0227,Antonia,36,26251.0,12,7,0.19,1,1,Hogar,Cafetera espresso,0
+C0228,Sebastián,34,265860.0,7,41,1.21,4,1,Hogar,Cafetera espresso,1
+C0229,Fernanda,13,53262.0,11,25,1.92,5,6,Deportes,Set yoga,0
+C0230,Valentina,29,143825.0,7,5,0.17,1,10,Hogar,Cafetera espresso,0
+C0231,Constanza,52,418489.0,12,26,0.5,2,6,Deportes,Mochila trekking,1
+C0232,Sebastián,4,98509.0,11,12,3.0,3,8,Electrónica,Audífonos Bluetooth,0
+C0233,Felipe,46,134520.0,8,68,1.48,0,9,Moda,Polerón con capucha,1
+C0234,Felipe,31,53573.0,8,26,0.84,1,6,Electrónica,Reloj smartwatch,0
+C0235,Diego,44,415744.0,5,51,1.16,2,6,Moda,Polerón con capucha,0
+C0236,Catalina,41,59049.0,9,41,1.0,1,2,Libros,Libro de cocina chilena,0
+C0237,Constanza,28,210904.0,8,11,0.39,2,10,Deportes,Mochila trekking,0
+C0238,Fernanda,20,308522.0,8,96,4.8,3,8,Deportes,Set yoga,0
+C0239,Constanza,39,225295.0,8,7,0.18,1,9,Electrónica,Audífonos Bluetooth,0
+C0240,Javier,11,171718.0,7,15,1.36,1,10,Hogar,Aspiradora robot,0
+C0241,Catalina,36,142157.0,5,1,0.03,2,3,Hogar,Aspiradora robot,0
+C0242,Antonia,8,40020.0,8,46,5.75,1,1,Electrónica,Notebook Lenovo,0
+C0243,Diego,40,403484.0,24,6,0.15,1,9,Moda,Polerón con capucha,0
+C0244,Javier,39,161467.0,10,62,1.59,2,5,Moda,Polerón con capucha,0
+C0245,Camila,7,134582.0,7,19,2.71,1,10,Hogar,Aspiradora robot,0
+C0246,Diego,46,49284.0,9,17,0.37,2,7,Libros,El problema de los tres cuerpos,0
+C0247,Catalina,27,139668.0,6,3,0.11,0,2,Deportes,Mochila trekking,0
+C0248,Diego,48,128115.0,15,88,1.83,0,3,Libros,Libro de cocina chilena,0
+C0249,Camila,5,418481.0,11,165,33.0,3,6,Hogar,Aspiradora robot,1
+C0250,Cristóbal,13,134519.0,7,15,1.15,1,4,Libros,Libro de cocina chilena,0
+C0251,Cristóbal,31,137952.0,4,18,0.58,2,3,Libros,El problema de los tres cuerpos,1
+C0252,Diego,13,49874.0,5,40,3.08,2,2,Libros,Libro de cocina chilena,1
+C0253,Antonia,22,70168.0,9,32,1.45,0,7,Electrónica,Notebook Lenovo,0
+C0254,Sebastián,41,193408.0,10,118,2.88,2,0,Hogar,Aspiradora robot,0
+C0255,Sebastián,11,20841.0,11,39,3.55,2,1,Hogar,Set de ollas,1
+C0256,Constanza,42,264872.0,13,148,3.52,2,0,Moda,Polerón con capucha,1
+C0257,Fernanda,8,269821.0,9,90,11.25,2,8,Moda,Polerón con capucha,0
+C0258,Cristóbal,13,63715.0,8,25,1.92,2,0,Libros,El problema de los tres cuerpos,0
+C0259,Felipe,37,172185.0,6,24,0.65,4,4,Libros,Libro de cocina chilena,0
+C0260,Cristóbal,49,315377.0,5,63,1.29,2,1,Hogar,Aspiradora robot,0
+C0261,Camila,12,120138.0,12,77,6.42,2,6,Moda,Polerón con capucha,0
+C0262,Antonia,20,103017.0,9,35,1.75,1,0,Hogar,Cafetera espresso,0
+C0263,Catalina,56,113532.0,14,1,0.02,1,0,Electrónica,Reloj smartwatch,0
+C0264,Sebastián,60,161194.0,11,50,0.83,1,4,Moda,Polerón con capucha,0
+C0265,Catalina,36,78417.0,9,77,2.14,0,7,Libros,Libro de cocina chilena,0
+C0266,Matías,28,95976.0,7,6,0.21,1,1,Hogar,Aspiradora robot,0
+C0267,Cristóbal,23,163587.0,7,72,3.13,2,5,Libros,El problema de los tres cuerpos,0
+C0268,Catalina,38,89551.0,11,20,0.53,4,8,Moda,Polerón con capucha,0
+C0269,Antonia,37,45724.0,7,16,0.43,1,6,Electrónica,Audífonos Bluetooth,0
+C0270,Felipe,20,18669.0,8,36,1.8,1,8,Moda,Polerón con capucha,0
+C0271,Sebastián,4,136552.0,4,64,16.0,1,3,Libros,Libro de cocina chilena,1
+C0272,Constanza,11,302156.0,8,22,2.0,2,10,Hogar,Set de ollas,0
+C0273,Sebastián,58,178548.0,9,25,0.43,1,1,Libros,Libro de cocina chilena,0
+C0274,Catalina,27,47482.0,4,41,1.52,3,6,Moda,Polerón con capucha,0
+C0275,Javier,30,69711.0,9,144,4.8,1,4,Libros,El problema de los tres cuerpos,0
+C0276,Diego,30,102396.0,6,15,0.5,3,0,Libros,Libro de cocina chilena,0
+C0277,Valentina,48,427361.0,8,9,0.19,1,10,Moda,Polerón con capucha,0
+C0278,Matías,6,442735.0,13,40,6.67,2,7,Libros,Libro de cocina chilena,0
+C0279,Antonia,7,408844.0,11,26,3.71,2,2,Electrónica,Reloj smartwatch,1
+C0280,Matías,18,147332.0,13,20,1.11,2,0,Moda,Polerón con capucha,0
+C0281,Antonia,31,804838.0,11,63,2.03,2,7,Moda,Polerón con capucha,0
+C0282,Camila,41,72815.0,6,43,1.05,4,5,Moda,Polerón con capucha,0
+C0283,Constanza,31,99346.0,9,8,0.26,1,0,Electrónica,Audífonos Bluetooth,0
+C0284,Felipe,28,250910.0,7,168,6.0,0,10,Hogar,Set de ollas,0
+C0285,Valentina,57,164224.0,11,68,1.19,2,7,Moda,Polerón con capucha,0
+C0286,Felipe,12,171204.0,13,5,0.42,1,5,Libros,El problema de los tres cuerpos,0
+C0287,Antonia,36,55454.0,16,67,1.86,1,2,Moda,Polerón con capucha,0
+C0288,Constanza,34,127391.0,9,103,3.03,4,2,Libros,El problema de los tres cuerpos,0
+C0289,Valentina,30,73768.0,6,63,2.1,1,4,Deportes,Set yoga,0
+C0290,Catalina,49,37203.0,9,32,0.65,0,0,Hogar,Cafetera espresso,0
+C0291,Catalina,18,81591.0,8,13,0.72,2,4,Hogar,Set de ollas,1
+C0292,Javier,58,164258.0,6,104,1.79,2,2,Hogar,Aspiradora robot,1
+C0293,Felipe,22,222998.0,17,66,3.0,2,1,Libros,Libro de cocina chilena,0
+C0294,Valentina,34,17843.0,5,95,2.79,0,1,Electrónica,Notebook Lenovo,0
+C0295,Javier,33,132065.0,8,24,0.73,1,3,Moda,Polerón con capucha,0
+C0296,Antonia,52,122935.0,8,5,0.1,2,4,Hogar,Cafetera espresso,0
+C0297,Javier,28,158012.0,8,17,0.61,0,3,Hogar,Set de ollas,0
+C0298,Constanza,19,48352.0,6,64,3.37,3,7,Libros,Libro de cocina chilena,0
+C0299,Felipe,4,49292.0,8,31,7.75,3,5,Moda,Polerón con capucha,0
+C0300,Fernanda,24,307670.0,6,24,1.0,0,2,Electrónica,Reloj smartwatch,0
+C0301,Matías,50,64476.0,12,33,0.66,4,10,Libros,Libro de cocina chilena,0
+C0302,Fernanda,3,95446.0,8,130,43.33,0,8,Deportes,Mochila trekking,1
+C0303,Cristóbal,54,103658.0,10,29,0.54,0,5,Hogar,Aspiradora robot,0
+C0304,Valentina,34,74992.0,11,77,2.26,1,0,Hogar,Cafetera espresso,0
+C0305,Diego,11,189159.0,6,5,0.45,1,10,Deportes,Mochila trekking,0
+C0306,Antonia,20,177766.0,8,25,1.25,3,8,Electrónica,Audífonos Bluetooth,0
+C0307,Javier,35,118678.0,7,1,0.03,1,5,Deportes,Set yoga,0
+C0308,Cristóbal,21,78843.0,8,5,0.24,2,1,Moda,Polerón con capucha,0
+C0309,Matías,9,111380.0,9,11,1.22,0,1,Hogar,Cafetera espresso,1
+C0310,Fernanda,41,140686.0,11,34,0.83,5,3,Electrónica,Reloj smartwatch,0
+C0311,Felipe,41,69788.0,7,130,3.17,2,2,Libros,El problema de los tres cuerpos,1
+C0312,Valentina,9,199338.0,5,64,7.11,0,2,Electrónica,Notebook Lenovo,1
+C0313,Catalina,19,263521.0,11,1,0.05,2,4,Libros,Libro de cocina chilena,0
+C0314,Fernanda,17,343487.0,6,8,0.47,1,0,Libros,El problema de los tres cuerpos,0
+C0315,Cristóbal,41,329536.0,12,108,2.63,2,3,Hogar,Aspiradora robot,0
+C0316,Camila,45,103121.0,7,244,5.42,2,9,Moda,Polerón con capucha,0
+C0317,Valentina,45,146030.0,6,58,1.29,1,9,Libros,El problema de los tres cuerpos,0
+C0318,Catalina,57,116898.0,10,80,1.4,0,0,Moda,Polerón con capucha,0
+C0319,Fernanda,47,116562.0,9,46,0.98,2,7,Deportes,Set yoga,0
+C0320,Valentina,21,110755.0,9,56,2.67,1,10,Moda,Polerón con capucha,0
+C0321,Javier,9,133956.0,6,79,8.78,2,6,Moda,Polerón con capucha,1
+C0322,Constanza,38,293529.0,5,21,0.55,2,4,Moda,Polerón con capucha,0
+C0323,Sebastián,56,167935.0,8,13,0.23,1,5,Electrónica,Reloj smartwatch,0
+C0324,Antonia,59,46294.0,4,18,0.31,2,2,Electrónica,Notebook Lenovo,1
+C0325,Catalina,16,255931.0,10,89,5.56,0,4,Deportes,Zapatillas running,0
+C0326,Camila,16,156404.0,9,11,0.69,2,10,Moda,Polerón con capucha,1
+C0327,Matías,5,190714.0,9,130,26.0,2,6,Moda,Polerón con capucha,0
+C0328,Constanza,11,165507.0,8,19,1.73,3,4,Deportes,Set yoga,0
+C0329,Catalina,35,171114.0,9,2,0.06,1,1,Electrónica,Audífonos Bluetooth,0
+C0330,Camila,34,176916.0,12,111,3.26,3,9,Electrónica,Notebook Lenovo,0
+C0331,Diego,24,22794.0,10,68,2.83,1,1,Hogar,Set de ollas,0
+C0332,Constanza,20,188983.0,7,106,5.3,1,7,Libros,El problema de los tres cuerpos,0
+C0333,Camila,51,72481.0,9,30,0.59,2,3,Hogar,Set de ollas,0
+C0334,Antonia,29,89330.0,7,19,0.66,3,3,Moda,Polerón con capucha,1
+C0335,Sebastián,49,133135.0,14,76,1.55,0,1,Hogar,Set de ollas,0
+C0336,Sebastián,58,379739.0,6,37,0.64,1,4,Electrónica,Reloj smartwatch,1
+C0337,Cristóbal,21,54292.0,8,21,1.0,1,7,Moda,Polerón con capucha,0
+C0338,Valentina,14,129689.0,4,28,2.0,2,4,Libros,El problema de los tres cuerpos,1
+C0339,Constanza,58,108618.0,9,24,0.41,2,0,Moda,Polerón con capucha,0
+C0340,Matías,39,253398.0,8,1,0.03,2,2,Libros,Libro de cocina chilena,1
+C0341,Fernanda,19,106207.0,8,18,0.95,3,1,Moda,Polerón con capucha,0
+C0342,Sebastián,39,157730.0,14,52,1.33,0,4,Hogar,Set de ollas,0
+C0343,Diego,32,54442.0,8,1,0.03,0,9,Electrónica,Notebook Lenovo,0
+C0344,Felipe,55,283060.0,13,28,0.51,3,10,Hogar,Aspiradora robot,0
+C0345,Felipe,17,34006.0,8,32,1.88,3,10,Electrónica,Audífonos Bluetooth,0
+C0346,Diego,60,187144.0,10,2,0.03,1,1,Hogar,Set de ollas,0
+C0347,Sebastián,57,158466.0,7,50,0.88,0,5,Moda,Polerón con capucha,0
+C0348,Sebastián,13,175858.0,4,140,10.77,2,0,Moda,Polerón con capucha,1
+C0349,Diego,12,34531.0,7,119,9.92,2,5,Libros,El problema de los tres cuerpos,0
+C0350,Javier,33,104457.0,9,8,0.24,2,6,Moda,Polerón con capucha,0
+C0351,Felipe,5,244968.0,10,4,0.8,2,8,Moda,Polerón con capucha,0
+C0352,Antonia,20,417775.0,6,61,3.05,2,3,Moda,Polerón con capucha,1
+C0353,Felipe,28,122318.0,5,155,5.54,3,0,Electrónica,Audífonos Bluetooth,1
+C0354,Matías,59,229246.0,12,1,0.02,2,4,Libros,Libro de cocina chilena,1
+C0355,Sebastián,60,147300.0,13,17,0.28,1,4,Deportes,Set yoga,1
+C0356,Catalina,11,127304.0,5,9,0.82,2,6,Electrónica,Reloj smartwatch,1
+C0357,Diego,54,94944.0,11,18,0.33,2,1,Electrónica,Reloj smartwatch,0
+C0358,Antonia,8,133643.0,8,60,7.5,1,6,Moda,Polerón con capucha,0
+C0359,Camila,46,215203.0,10,2,0.04,1,4,Electrónica,Reloj smartwatch,0
+C0360,Javier,52,227682.0,7,35,0.67,3,8,Moda,Polerón con capucha,0
+C0361,Catalina,54,42142.0,6,4,0.07,2,10,Libros,Libro de cocina chilena,0
+C0362,Camila,15,88015.0,11,1,0.07,4,2,Moda,Polerón con capucha,0
+C0363,Antonia,54,51905.0,11,6,0.11,4,8,Deportes,Mochila trekking,1
+C0364,Sebastián,9,138795.0,3,1,0.11,1,1,Deportes,Mochila trekking,0
+C0365,Fernanda,33,101483.0,11,52,1.58,0,10,Deportes,Mochila trekking,0
+C0366,Sebastián,30,171606.0,6,14,0.47,4,5,Moda,Polerón con capucha,0
+C0367,Felipe,21,180297.0,9,20,0.95,2,8,Electrónica,Audífonos Bluetooth,0
+C0368,Cristóbal,4,11133.0,10,16,4.0,2,8,Deportes,Set yoga,0
+C0369,Fernanda,47,132855.0,7,13,0.28,1,6,Deportes,Set yoga,0
+C0370,Felipe,22,297449.0,12,97,4.41,2,4,Hogar,Aspiradora robot,0
+C0371,Camila,41,88045.0,7,31,0.76,0,8,Electrónica,Audífonos Bluetooth,0
+C0372,Diego,26,85904.0,7,31,1.19,4,5,Libros,El problema de los tres cuerpos,1
+C0373,Valentina,24,263314.0,9,36,1.5,2,7,Hogar,Set de ollas,1
+C0374,Antonia,54,235054.0,6,6,0.11,2,6,Moda,Polerón con capucha,0
+C0375,Felipe,8,57035.0,9,24,3.0,2,5,Electrónica,Notebook Lenovo,0
+C0376,Fernanda,45,219277.0,11,45,1.0,2,1,Electrónica,Reloj smartwatch,0
+C0377,Camila,46,69081.0,11,48,1.04,2,3,Hogar,Cafetera espresso,1
+C0378,Diego,25,85156.0,11,17,0.68,0,10,Libros,El problema de los tres cuerpos,0
+C0379,Camila,18,56986.0,9,5,0.28,1,5,Deportes,Set yoga,0
+C0380,Sebastián,3,41810.0,12,24,8.0,0,6,Electrónica,Audífonos Bluetooth,0
+C0381,Antonia,57,144981.0,11,97,1.7,5,2,Libros,El problema de los tres cuerpos,0
+C0382,Camila,57,35675.0,8,48,0.84,3,7,Libros,Libro de cocina chilena,0
+C0383,Cristóbal,16,149415.0,14,17,1.06,1,5,Moda,Polerón con capucha,0
+C0384,Constanza,4,145934.0,8,201,50.25,1,2,Moda,Polerón con capucha,1
+C0385,Antonia,10,118082.0,4,42,4.2,2,1,Libros,Libro de cocina chilena,0
+C0386,Fernanda,6,91527.0,5,178,29.67,0,4,Libros,El problema de los tres cuerpos,1
+C0387,Javier,51,77242.0,11,28,0.55,1,6,Electrónica,Audífonos Bluetooth,0
+C0388,Cristóbal,54,50437.0,7,8,0.15,2,3,Libros,El problema de los tres cuerpos,1
+C0389,Catalina,11,345202.0,10,15,1.36,1,2,Moda,Polerón con capucha,0
+C0390,Catalina,46,114015.0,9,74,1.61,0,2,Libros,Libro de cocina chilena,0
+C0391,Camila,13,111026.0,8,37,2.85,5,3,Hogar,Set de ollas,1
+C0392,Matías,24,59528.0,12,8,0.33,2,8,Electrónica,Reloj smartwatch,0
+C0393,Diego,37,321222.0,3,98,2.65,3,5,Hogar,Aspiradora robot,0
+C0394,Valentina,44,81463.0,9,13,0.3,1,5,Electrónica,Audífonos Bluetooth,1
+C0395,Catalina,53,160126.0,9,84,1.58,2,1,Libros,El problema de los tres cuerpos,1
+C0396,Fernanda,5,183188.0,9,2,0.4,0,5,Electrónica,Notebook Lenovo,0
+C0397,Fernanda,14,145063.0,8,58,4.14,1,10,Libros,El problema de los tres cuerpos,0
+C0398,Valentina,19,34791.0,10,1,0.05,2,8,Libros,El problema de los tres cuerpos,0
+C0399,Catalina,20,212819.0,8,43,2.15,1,4,Deportes,Zapatillas running,0
+C0400,Catalina,60,80759.0,16,20,0.33,3,3,Electrónica,Notebook Lenovo,0
+C0401,Fernanda,48,233438.0,6,109,2.27,2,3,Electrónica,Audífonos Bluetooth,0
+C0402,Fernanda,21,126525.0,11,25,1.19,2,0,Libros,Libro de cocina chilena,1
+C0403,Antonia,59,191211.0,8,108,1.83,1,0,Moda,Polerón con capucha,0
+C0404,Camila,31,307131.0,10,32,1.03,2,8,Deportes,Mochila trekking,1
+C0405,Constanza,32,207345.0,8,3,0.09,1,9,Moda,Polerón con capucha,0
+C0406,Fernanda,28,194527.0,10,11,0.39,4,10,Hogar,Set de ollas,0
+C0407,Constanza,11,219587.0,4,26,2.36,1,6,Moda,Polerón con capucha,1
+C0408,Diego,57,66953.0,10,128,2.25,0,10,Electrónica,Reloj smartwatch,0
+C0409,Catalina,3,240298.0,7,12,4.0,2,4,Moda,Polerón con capucha,0
+C0410,Valentina,13,107197.0,4,90,6.92,0,2,Moda,Polerón con capucha,0
+C0411,Cristóbal,16,110011.0,5,50,3.12,1,2,Libros,El problema de los tres cuerpos,0
+C0412,Constanza,19,141659.0,8,77,4.05,1,2,Hogar,Set de ollas,1
+C0413,Matías,10,99394.0,10,31,3.1,0,8,Electrónica,Reloj smartwatch,1
+C0414,Matías,4,55074.0,4,11,2.75,2,0,Libros,Libro de cocina chilena,0
+C0415,Matías,42,133655.0,8,15,0.36,2,10,Moda,Polerón con capucha,0
+C0416,Valentina,59,110430.0,5,33,0.56,3,8,Libros,El problema de los tres cuerpos,0
+C0417,Constanza,10,107333.0,5,72,7.2,3,4,Moda,Polerón con capucha,0
+C0418,Fernanda,20,123422.0,3,42,2.1,2,7,Deportes,Mochila trekking,1
+C0419,Constanza,32,12847.0,10,110,3.44,2,1,Hogar,Set de ollas,0
+C0420,Valentina,56,107967.0,8,1,0.02,1,4,Electrónica,Reloj smartwatch,0
+C0421,Cristóbal,43,332999.0,6,4,0.09,1,1,Hogar,Cafetera espresso,0
+C0422,Valentina,47,315581.0,11,29,0.62,4,1,Moda,Polerón con capucha,1
+C0423,Javier,36,137215.0,14,12,0.33,4,0,Electrónica,Audífonos Bluetooth,0
+C0424,Javier,27,133726.0,9,60,2.22,0,8,Electrónica,Audífonos Bluetooth,0
+C0425,Valentina,14,8603.0,13,24,1.71,1,8,Hogar,Cafetera espresso,0
+C0426,Antonia,53,84735.0,6,83,1.57,0,9,Deportes,Mochila trekking,0
+C0427,Catalina,49,218061.0,9,62,1.27,1,10,Electrónica,Notebook Lenovo,0
+C0428,Camila,4,97456.0,7,114,28.5,1,10,Electrónica,Reloj smartwatch,1
+C0429,Sebastián,44,270542.0,6,5,0.11,2,10,Deportes,Zapatillas running,0
+C0430,Constanza,7,259516.0,12,21,3.0,1,0,Libros,Libro de cocina chilena,0
+C0431,Valentina,45,83344.0,7,7,0.16,2,8,Libros,El problema de los tres cuerpos,0
+C0432,Valentina,50,145087.0,16,53,1.06,2,7,Hogar,Set de ollas,0
+C0433,Constanza,10,350650.0,11,9,0.9,3,1,Libros,El problema de los tres cuerpos,0
+C0434,Javier,28,33972.0,11,32,1.14,1,1,Libros,El problema de los tres cuerpos,1
+C0435,Javier,10,99225.0,8,58,5.8,0,10,Hogar,Aspiradora robot,0
+C0436,Sebastián,35,30385.0,8,35,1.0,2,9,Moda,Polerón con capucha,0
+C0437,Diego,56,62723.0,8,46,0.82,1,3,Hogar,Aspiradora robot,0
+C0438,Constanza,7,419408.0,9,2,0.29,1,0,Electrónica,Reloj smartwatch,0
+C0439,Camila,26,99197.0,7,29,1.12,0,3,Hogar,Set de ollas,0
+C0440,Javier,59,17410.0,14,17,0.29,0,0,Hogar,Cafetera espresso,0
+C0441,Camila,20,54548.0,12,17,0.85,2,7,Moda,Polerón con capucha,0
+C0442,Matías,10,26945.0,6,43,4.3,0,4,Moda,Polerón con capucha,0
+C0443,Camila,31,149280.0,6,60,1.94,3,0,Moda,Polerón con capucha,0
+C0444,Diego,32,181264.0,7,14,0.44,3,10,Moda,Polerón con capucha,1
+C0445,Constanza,41,242517.0,7,57,1.39,2,9,Moda,Polerón con capucha,0
+C0446,Constanza,21,209957.0,6,62,2.95,2,9,Libros,El problema de los tres cuerpos,0
+C0447,Javier,58,35715.0,11,5,0.09,3,10,Deportes,Zapatillas running,0
+C0448,Camila,33,174740.0,7,139,4.21,1,0,Moda,Polerón con capucha,0
+C0449,Catalina,19,119296.0,7,73,3.84,1,8,Electrónica,Audífonos Bluetooth,0
+C0450,Felipe,58,266805.0,8,109,1.88,1,8,Libros,El problema de los tres cuerpos,0
+C0451,Camila,56,226779.0,7,26,0.46,0,8,Hogar,Set de ollas,0
+C0452,Constanza,31,455599.0,12,13,0.42,2,2,Electrónica,Audífonos Bluetooth,0
+C0453,Matías,4,58708.0,6,2,0.5,1,4,Moda,Polerón con capucha,0
+C0454,Cristóbal,37,51180.0,12,76,2.05,2,10,Hogar,Aspiradora robot,0
+C0455,Cristóbal,35,89159.0,10,162,4.63,2,0,Libros,El problema de los tres cuerpos,0
+C0456,Fernanda,11,123035.0,7,38,3.45,2,7,Electrónica,Reloj smartwatch,1
+C0457,Camila,39,75119.0,7,26,0.67,1,8,Moda,Polerón con capucha,0
+C0458,Valentina,51,61564.0,16,46,0.9,0,8,Libros,Libro de cocina chilena,0
+C0459,Valentina,9,166481.0,8,4,0.44,2,6,Moda,Polerón con capucha,0
+C0460,Antonia,44,88932.0,8,10,0.23,1,8,Electrónica,Audífonos Bluetooth,0
+C0461,Cristóbal,11,72382.0,8,35,3.18,2,10,Hogar,Set de ollas,0
+C0462,Constanza,46,35645.0,9,30,0.65,2,8,Hogar,Cafetera espresso,0
+C0463,Sebastián,27,9816.0,8,122,4.52,2,1,Electrónica,Audífonos Bluetooth,0
+C0464,Constanza,3,322326.0,6,32,10.67,2,2,Moda,Polerón con capucha,0
+C0465,Diego,59,315970.0,10,17,0.29,0,3,Moda,Polerón con capucha,0
+C0466,Constanza,12,231586.0,10,20,1.67,4,3,Libros,El problema de los tres cuerpos,0
+C0467,Felipe,37,195098.0,5,42,1.14,0,3,Electrónica,Notebook Lenovo,0
+C0468,Valentina,13,82205.0,13,6,0.46,3,2,Moda,Polerón con capucha,0
+C0469,Felipe,57,200774.0,9,16,0.28,0,7,Moda,Polerón con capucha,0
+C0470,Felipe,45,47742.0,7,14,0.31,1,1,Hogar,Aspiradora robot,0
+C0471,Matías,49,142469.0,9,114,2.33,0,8,Moda,Polerón con capucha,0
+C0472,Catalina,28,67088.0,8,16,0.57,2,7,Libros,El problema de los tres cuerpos,0
+C0473,Javier,30,201365.0,10,13,0.43,0,10,Libros,El problema de los tres cuerpos,0
+C0474,Cristóbal,39,366411.0,10,7,0.18,0,0,Moda,Polerón con capucha,0
+C0475,Javier,48,54352.0,16,25,0.52,2,3,Moda,Polerón con capucha,0
+C0476,Matías,52,85669.0,9,1,0.02,1,9,Moda,Polerón con capucha,0
+C0477,Fernanda,4,140479.0,6,43,10.75,0,5,Libros,El problema de los tres cuerpos,0
+C0478,Felipe,41,20218.0,14,48,1.17,1,6,Hogar,Cafetera espresso,0
+C0479,Constanza,9,28423.0,10,4,0.44,0,0,Moda,Polerón con capucha,0
+C0480,Cristóbal,19,359347.0,14,1,0.05,1,8,Electrónica,Audífonos Bluetooth,0
+C0481,Camila,51,167016.0,12,17,0.33,1,2,Hogar,Set de ollas,0
+C0482,Felipe,17,78387.0,8,148,8.71,0,10,Hogar,Cafetera espresso,1
+C0483,Sebastián,49,129393.0,9,88,1.8,0,4,Electrónica,Notebook Lenovo,0
+C0484,Diego,29,89472.0,11,59,2.03,2,2,Electrónica,Audífonos Bluetooth,0
+C0485,Catalina,16,143649.0,9,74,4.62,2,6,Electrónica,Audífonos Bluetooth,1
+C0486,Fernanda,22,92278.0,7,89,4.05,0,5,Deportes,Zapatillas running,0
+C0487,Javier,33,121757.0,9,17,0.52,0,5,Electrónica,Notebook Lenovo,0
+C0488,Camila,47,214068.0,9,27,0.57,0,10,Libros,Libro de cocina chilena,0
+C0489,Javier,38,204510.0,7,53,1.39,1,4,Libros,El problema de los tres cuerpos,1
+C0490,Matías,57,346024.0,7,13,0.23,3,4,Libros,Libro de cocina chilena,1
+C0491,Valentina,53,175692.0,8,106,2.0,3,6,Libros,El problema de los tres cuerpos,1
+C0492,Felipe,46,135760.0,7,42,0.91,0,1,Hogar,Set de ollas,0
+C0493,Felipe,37,380403.0,10,37,1.0,1,9,Libros,El problema de los tres cuerpos,0
+C0494,Javier,19,112059.0,10,18,0.95,1,2,Electrónica,Audífonos Bluetooth,0
+C0495,Valentina,26,11323.0,10,4,0.15,2,2,Libros,El problema de los tres cuerpos,0
+C0496,Fernanda,9,233574.0,10,49,5.44,1,0,Electrónica,Reloj smartwatch,1
+C0497,Cristóbal,24,160908.0,5,55,2.29,2,3,Libros,El problema de los tres cuerpos,0
+C0498,Constanza,56,130948.0,8,99,1.77,1,6,Hogar,Aspiradora robot,0
+C0499,Javier,27,237856.0,6,38,1.41,2,7,Moda,Polerón con capucha,0
