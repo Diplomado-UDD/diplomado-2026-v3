@@ -27,6 +27,7 @@ El notebook `clase_07-lab_redes.ipynb` muestra cómo funciona una red neuronal p
 |---|---|
 | 1 | Juego: ¿perro o muffin? |
 | 2 | Un modelo preentrenado con ImageNet responde ante categorías que no conoce |
+| Pausa | Qué es una CNN: convolución, ReLU, pooling y capa final, con un filtro de bordes a mano |
 | 3 | Filtros de la primera capa, mapas de activación por capa y la huella de 512 números |
 | 4 | Transfer learning: entrenar solo la capa final frente a entrenar desde cero |
 | 5 | Interpretabilidad con oclusión manual y con Captum (oclusión y gradientes integrados) |
