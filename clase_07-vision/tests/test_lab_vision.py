@@ -36,6 +36,10 @@ def make_factura(**over):
     return factura_cls()(**{**data, **over})
 
 
+class FakeAPIError(Exception):
+    pass
+
+
 def fake_result(boxes):
     cls, conf, xyxy = zip(*boxes) if boxes else ((), (), ())
     return SimpleNamespace(
@@ -224,7 +228,7 @@ class TestFactura:
 
 
 class TestLeerFactura:
-    def ns(self, monkeypatch, hay_clave, parsed=None, stop="end_turn"):
+    def ns(self, monkeypatch, hay_clave, parsed=None, stop="end_turn", error=None):
         resp = SimpleNamespace(
             stop_reason=stop,
             parsed_output=parsed,
@@ -232,12 +236,16 @@ class TestLeerFactura:
         )
         client = MagicMock()
         client.messages.parse.return_value = resp
+        client.messages.parse.side_effect = error
         monkeypatch.setitem(
-            sys.modules, "anthropic", SimpleNamespace(Anthropic=lambda: client)
+            sys.modules,
+            "anthropic",
+            SimpleNamespace(Anthropic=lambda: client, APIError=FakeAPIError),
         )
         ns = load(
             NB,
             "leer_factura",
+            "factura_simulada",
             Factura=factura_cls(),
             hay_clave=hay_clave,
             io=io,
@@ -268,10 +276,30 @@ class TestLeerFactura:
         with pytest.raises(RuntimeError):
             f(Image.new("RGB", (4, 4)))
 
+    def test_error_api_falls_back_to_simulated(self, monkeypatch, capsys):
+        f, _ = self.ns(monkeypatch, True, error=FakeAPIError("down"))
+        assert f(Image.new("RGB", (4, 4))).total == 190
+        assert "modo simulado" in capsys.readouterr().out
+
+
+class TestIva:
+    f = staticmethod(lambda: load(NB, "iva")["iva"])
+
+    def test_happy(self):
+        assert self.f()(1_250_000) == 237_500
+
+    def test_edge_half_peso_rounds_up(self):
+        assert self.f()(150) == 29  # 28,5: round() would give 28
+
+    def test_edge_zero(self):
+        assert self.f()(0) == 0
+
 
 class TestValidar:
     f = staticmethod(
-        lambda: load(NB, "validar", "rut_valido", "digito_verificador")["validar"]
+        lambda: load(NB, "validar", "rut_valido", "digito_verificador", "iva")[
+            "validar"
+        ]
     )
 
     def test_happy(self):
