@@ -50,4 +50,10 @@ En Cursor o VS Code, el kernel es `clase_07-vision/.venv/bin/python3`. Para abri
 uv run --with jupyterlab jupyter lab clase_07-lab_vision.ipynb
 ```
 
+Las pruebas de las funciones de ambos notebooks corren sin red ni GPU (unidad de procesamiento gráfico):
+
+```bash
+uv run pytest
+```
+
 La misión 3 descarga una vez el modelo `yolo26n.pt` (unos 5 MB). La misión 4 busca `ANTHROPIC_API_KEY` en un archivo `.env` de esta carpeta o de una carpeta superior. Sin clave, o con `USAR_CLAUDE = False`, usa una respuesta simulada que trae un error a propósito.
