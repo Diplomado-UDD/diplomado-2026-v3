@@ -1,6 +1,6 @@
 ---
 tipo: actividad
-tags: [teaching, computer-vision, yolo, vlm, ocr]
+tags: [teaching, computer-vision, yolo, vlm, ocr, transfer-learning, interpretability]
 fecha: 07-11-26
 objetivo: Ejecutar el laboratorio de la clase 7 sobre píxeles, convolución, detección de objetos y lectura de facturas con un VLM.
 ---
@@ -18,6 +18,21 @@ El notebook es `clase_07-lab_vision.ipynb`. Tiene cinco misiones. Cada misión t
 | 5 | El "último kilómetro": de la detección a la alerta |
 
 VLM significa modelo de visión y lenguaje.
+
+## Parte 2: ¿chihuahua o muffin?
+
+El notebook `clase_07-lab_redes.ipynb` muestra cómo funciona una red neuronal por dentro. Usa ResNet18 y el dataset `sasha/chihuahua-muffin` de Hugging Face (299 fotos, sin licencia declarada; uso docente).
+
+| Misión | Concepto |
+|---|---|
+| 1 | Juego: ¿perro o muffin? |
+| 2 | Un modelo preentrenado con ImageNet responde ante categorías que no conoce |
+| 3 | Filtros de la primera capa, mapas de activación por capa y la huella de 512 números |
+| 4 | Transfer learning: entrenar solo la capa final frente a entrenar desde cero |
+| 5 | Interpretabilidad con oclusión manual y con Captum (oclusión y gradientes integrados) |
+| 6 | Calidad de datos: etiquetas erróneas en el dataset |
+
+Descarga una vez el dataset (9 MB) y los pesos de ResNet18 (45 MB). Corre completo en unos 30 segundos con GPU; sin GPU, la misión 4b tarda hasta 3 minutos (`ENTRENAR_DESDE_CERO = False` la omite).
 
 ## Ambiente
 
