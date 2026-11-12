@@ -16,4 +16,9 @@ dependencies = [
 ]
 
 [dependency-groups]
-dev = ["ipykernel>=7.4.0", "nbconvert>=7.17.2"]
+dev = [
+    "ipykernel>=7.4.0",
+    "nbconvert>=7.17.2",
+    "pytest>=9.2.0",
+    "pytest-randomly>=5.1.0",
+]
