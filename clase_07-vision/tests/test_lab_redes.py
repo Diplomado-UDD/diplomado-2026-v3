@@ -85,3 +85,27 @@ class TestCuerpo:
         ns = load(NB, "cuerpo", red=red, torch=torch, copy=copy, DISPOSITIVO="meta")
         assert next(ns["cuerpo"].parameters()).device.type == "meta"
         assert next(red.parameters()).device.type == "cpu"
+
+
+class TestPasar:
+    """Toy network in the theory break: hand-set weights, deterministic answers."""
+
+    f = staticmethod(
+        lambda: load(NB, "W1", "B1", "W2", "pasar", torch=torch, F=F)["pasar"]
+    )
+
+    def test_happy_dog_clues_say_chihuahua(self):
+        oculta, prob = self.f()(torch.tensor([1.0, 1.0, 0.0]))
+        assert oculta.tolist() == [3.0, 0.0] and prob[0] > 0.9
+
+    def test_happy_muffin_clue_says_muffin(self):
+        _, prob = self.f()(torch.tensor([0.0, 0.0, 1.0]))
+        assert prob[1] > 0.9
+
+    def test_edge_no_clues_is_a_coin_flip(self):
+        oculta, prob = self.f()(torch.zeros(3))
+        assert oculta.tolist() == [0.0, 0.0] and torch.allclose(prob, torch.tensor([0.5, 0.5]))
+
+    def test_error_wrong_input_size(self):
+        with pytest.raises(RuntimeError):
+            self.f()(torch.zeros(2))
