@@ -11,11 +11,11 @@ El notebook es `clase_09-lab_langsmith.ipynb`. Un agente revisa el inventario de
 
 | Misión | Concepto |
 |---|---|
-| 1 | Herramientas trazables con `@traceable` y política de compras en código: proveedor bloqueado, cantidad máxima y umbral de aprobación HITL (*human in the loop*) |
-| 2 | Loop ReAct (*Reason + Act*) con `wrap_anthropic`, salida estándar validada con Pydantic y lectura de la traza |
-| 3 | Modos SIMULATE, SAFE y LIVE, más idempotencia de las órdenes |
-| 4 | Uso de tokens y *prompt caching* del catálogo |
-| 5 | Evaluación con cuatro casos, métricas y decisión *go/no-go* |
+| 1 | Herramientas trazables con `@traceable` y política de compras en código: proveedor bloqueado, cantidad máxima y umbral de aprobación HITL (*human in the loop*). Prueba de la política con casos fijos |
+| 2 | Loop ReAct (*Reason + Act*) con `wrap_anthropic`, salida estándar validada con Pydantic, lectura de la traza desde código y escalamiento ante un SKU (*stock keeping unit*) inexistente |
+| 3 | Modos SIMULATE, SAFE y LIVE, idempotencia de las órdenes y aprobación humana de montos altos |
+| 4 | Uso de tokens, *prompt caching* del catálogo y costo en USD (dólares estadounidenses) por revisión y por mes |
+| 5 | Evaluación con cinco casos, métricas, decisión *go/no-go* y experimento sobre un dataset de LangSmith |
 
 ## Ambiente
 
@@ -44,7 +44,15 @@ El notebook busca el archivo `.env` en esta carpeta o en una carpeta superior. L
 | `LANGSMITH_ENDPOINT` | Solo para cuentas en la región de la Unión Europea |
 | `LANGSMITH_WORKSPACE_ID` | Solo para claves con acceso a varios workspaces |
 
-Una pasada completa con clave hace unas 30 llamadas al modelo. Las trazas quedan en **Tracing**, proyecto `clase-09-agentes`; las de la misión 5 llevan la etiqueta `eval`.
+Una pasada completa con clave hace unas 35 llamadas al modelo; con LangSmith activo, el experimento de la misión 5 agrega unas 15 más. Las trazas quedan en **Tracing**, proyecto `clase-09-agentes`; las de la misión 5 llevan la etiqueta `eval`. El dataset `clase-09-reposicion` y sus experimentos (prefijo `clase-09`) quedan en **Datasets & Experiments**.
+
+## Diagramas
+
+Los diagramas del notebook están en `img/` y van incrustados en las celdas. Para regenerarlos e incrustarlos de nuevo:
+
+```bash
+uv run python diagramas.py
+```
 
 Las pruebas corren sin red ni claves:
 

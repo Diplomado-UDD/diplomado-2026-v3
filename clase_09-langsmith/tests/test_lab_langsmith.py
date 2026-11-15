@@ -105,6 +105,22 @@ def test_herramienta_no_permitida_y_sku_inexistente():
     assert ns["ejecutar_herramienta"]("consultar_inventario", {"sku": "SKU-X"})[1]
 
 
+def test_sku_inexistente_escala():
+    ns = lab()
+    salida, _ = ns["agente_reposicion"]("SKU-999", ns["ClienteSimulado"]())
+    assert salida.action == "escalado"
+
+
+def test_solo_un_humano_aprueba_montos_altos():
+    ns = lab("LIVE")
+    ns["crear_orden_compra"]("SKU-902", 2_200, "x")
+    assert ns["ejecutar_herramienta"]("aprobar_orden", {})[1]
+    ns["ORDENES"]["SKU-902-2200"]["estado"] = "enviada"
+    assert not ns["cumple_politica"]()
+    ns["ORDENES"]["SKU-902-2200"]["aprobada_por"] = "comprador"
+    assert ns["cumple_politica"]()
+
+
 def test_salida_estandar_exige_evidencia():
     with pytest.raises(ValidationError):
         lab()["RespuestaAgente"](
