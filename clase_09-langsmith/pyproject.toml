@@ -1,0 +1,20 @@
+[project]
+name = "langsmith-agente"
+version = "0.1.0"
+description = "Laboratorio clase 9: agente de reposición con trazas en LangSmith y evaluación go/no-go"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=2.6.0",
+    "langsmith>=0.14.17",
+    "pydantic>=2.14.3",
+    "python-dotenv>=1.2.4",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "nbconvert>=7.17.2",
+    "pytest>=9.2.0",
+    "pytest-randomly>=5.1.0",
+]
