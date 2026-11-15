@@ -1,7 +1,7 @@
 ---
 tipo: recurso
 tags: [teaching, diplomado, actividades]
-fecha: 07-11-26
+fecha: 14-11-26
 objetivo: Indicar a los alumnos qué actividad corresponde a cada carpeta y cómo ejecutarla.
 ---
 
@@ -18,6 +18,8 @@ Material de trabajo del Diplomado en Inteligencia Artificial para la Transformac
 | `clase_05-prompting/` | Laboratorio de prompting con Claude (Anthropic) |
 | `clase_06-sala-maquinas/` | Laboratorio de tokens, costos, ventana de contexto y embeddings |
 | `clase_07-vision/` | Laboratorio de visión por computador: píxeles, convolución, YOLO26 y lectura de facturas |
+| `clase_08-agentes/` | Laboratorio de agentes: automatización con un componente agéntico frente a un agente con autonomía controlada |
+| `clase_09-langsmith/` | Laboratorio de un agente de reposición con trazas en LangSmith y evaluación |
 | `reclamos-cmf/` | Clasificación de reclamos de la CMF |
 | `consigna-auditoria/` | Consigna y archivo de transacciones para el caso de auditoría |
 
@@ -31,7 +33,7 @@ uv sync
 
 Eso crea `.venv` con Python 3.13 o superior. En Cursor o VS Code, el kernel del notebook es `.venv/bin/python3`.
 
-Las carpetas `clase_02-ml-inmuebles`, `clase_03-fuga`, `clase_04-umbral-fraude`, `clase_06-sala-maquinas`, `clase_07-vision` y `reclamos-cmf` tienen su propio `pyproject.toml`. Entra a la carpeta y ejecuta `uv sync` ahí antes de correr esa actividad.
+Las carpetas `clase_02-ml-inmuebles`, `clase_03-fuga`, `clase_04-umbral-fraude`, `clase_06-sala-maquinas`, `clase_07-vision`, `clase_08-agentes`, `clase_09-langsmith` y `reclamos-cmf` tienen su propio `pyproject.toml`. Entra a la carpeta y ejecuta `uv sync` ahí antes de correr esa actividad.
 
 ## Claves
 
@@ -41,6 +43,9 @@ Algunas actividades llaman a una API. Crea un archivo `.env` en esta carpeta, o 
 ANTHROPIC_API_KEY=
 ANTHROPIC_WORKSPACE_ID=
 JEV_API_KEY=
+LANGSMITH_TRACING=true
+LANGSMITH_API_KEY=
+LANGSMITH_PROJECT=clase-09-agentes
 ```
 
-El archivo `.env` no se comparte. Sin `ANTHROPIC_API_KEY`, el laboratorio de la clase 3 usa una respuesta simulada. La clase 5 necesita esa clave. Sin ella, la misión 4 de la clase 7 usa una respuesta simulada. La actividad de reclamos necesita `JEV_API_KEY`.
+El archivo `.env` no se comparte. Sin `ANTHROPIC_API_KEY`, el laboratorio de la clase 3 usa una respuesta simulada. La clase 5 necesita esa clave. Sin ella, la misión 4 de la clase 7 usa una respuesta simulada. Sin ella, las clases 8 y 9 usan un cliente simulado. Las variables `LANGSMITH_*` activan las trazas de la clase 9; sin ellas, el agente funciona sin trazas. Las clases 8 y 9 traen un `env.example` para copiar como `.env`. La actividad de reclamos necesita `JEV_API_KEY`.
