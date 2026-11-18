@@ -46,6 +46,17 @@ El notebook busca el archivo `.env` en esta carpeta o en una carpeta superior. L
 
 Una pasada completa con clave hace unas 35 llamadas al modelo; con LangSmith activo, el experimento de la misión 5 agrega unas 15 más. Las trazas quedan en **Tracing**, proyecto `clase-09-agentes`; las de la misión 5 llevan la etiqueta `eval`. El dataset `clase-09-reposicion` y sus experimentos (prefijo `clase-09`) quedan en **Datasets & Experiments**.
 
+## Aplicación con interfaz
+
+La carpeta `app/` muestra los mismos conceptos en una interfaz web con Streamlit. Tiene tres capas: `datos.py` (datos), `agente.py` (lógica) y `ui.py` (presentación). Cada pestaña corresponde a una misión: política, agente y traza, órdenes con HITL, tokens y costo, y evaluación *go/no-go*.
+
+```bash
+uv sync --group app
+uv run streamlit run app/ui.py
+```
+
+Sin `ANTHROPIC_API_KEY`, la app usa el cliente simulado y estima los tokens para ilustrar la caché. Con `LANGSMITH_API_KEY`, cada revisión llega a LangSmith con la etiqueta `app`.
+
 ## Diagramas
 
 Los diagramas del notebook están en `img/` y van incrustados en las celdas. Para regenerarlos e incrustarlos de nuevo:
