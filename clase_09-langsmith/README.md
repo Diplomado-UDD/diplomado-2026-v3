@@ -48,7 +48,7 @@ Una pasada completa con clave hace unas 35 llamadas al modelo; con LangSmith act
 
 ## Aplicación con interfaz
 
-La carpeta `app/` muestra los mismos conceptos en una interfaz web con Streamlit. Tiene tres capas: `datos.py` (datos), `agente.py` (lógica) y `ui.py` (presentación). Cada pestaña corresponde a una misión: política, agente y traza, órdenes con HITL, tokens y costo, y evaluación *go/no-go*.
+La carpeta `app/` muestra los mismos conceptos en una interfaz web con Streamlit. Tiene tres capas: `datos.py` (datos), `agente.py` (lógica) y `ui.py` (presentación). Cada pestaña corresponde a una misión: política, agente y traza, órdenes con HITL, tokens y costo, y evaluación *go/no-go*, con el detalle de cada caso (salida y traza) uno a uno.
 
 ```bash
 uv sync --group app
