@@ -34,3 +34,10 @@ def test_cache_abarata_y_evaluacion_go():
     assert decidir_go(filas)[0] == "GO"
     assert s.uso["cache_read_input_tokens"] > s.uso["cache_creation_input_tokens"]
     assert costo_usd(s.uso) < costo_usd(s.uso, con_cache=False)
+
+
+def test_evaluacion_guarda_detalle_por_caso():
+    filas = evaluar(Sistema(ClienteSimulado(), modo="LIVE"), CASOS)
+    for f in filas:
+        assert f["salida"]["action"] == f["accion"]
+        assert f["traza"][0]["tipo"] == "llm" and f["traza"][-1]["nombre"] == "entregar_respuesta"

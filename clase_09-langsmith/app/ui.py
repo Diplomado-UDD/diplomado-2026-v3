@@ -33,6 +33,17 @@ s: Sistema = st.session_state.sistema
 s.modo = modo
 SKUS = ["SKU-900", "SKU-901", "SKU-902", "SKU-903", "SKU-999", *list(CATALOGO)[:100]]
 
+
+
+def mostrar_traza(sku, traza):
+    st.code(f"chain  agente_reposicion({sku})", language=None)
+    for paso in traza:
+        extra = f"{paso['tokens']:,} tokens" if paso["tokens"] else ""
+        with st.expander(f"{'ERROR ' if paso['error'] else ''}{paso['tipo']} {paso['nombre']}  {paso['ms']} ms  {extra}"):
+            st.write("Entrada:", paso["entrada"])
+            (st.error if paso["error"] else st.write)(f"Salida: {paso['salida']}")
+
+
 st.title("Agente de reposición con trazas")
 st.caption("Distribuidora Austral (datos ficticios). Misiones de la clase 9 en una interfaz.")
 t1, t2, t3, t4, t5 = st.tabs(["1 Política", "2 Agente y traza", "3 Órdenes y HITL", "4 Tokens y costo", "5 Evaluación"])
@@ -77,13 +88,7 @@ with t2:
             st.json(salida.model_dump())
         with der:
             st.markdown("**Árbol de la traza**")
-            st.code(f"chain  agente_reposicion({sku})", language=None)
-            for paso in traza:
-                sangria = "    " if paso["tipo"] == "llm" else "        "
-                extra = f"{paso['tokens']:,} tokens" if paso["tokens"] else ""
-                with st.expander(f"{'ERROR ' if paso['error'] else ''}{paso['tipo']} {paso['nombre']}  {paso['ms']} ms  {extra}"):
-                    st.write("Entrada:", paso["entrada"])
-                    (st.error if paso["error"] else st.write)(f"Salida: {paso['salida']}")
+            mostrar_traza(sku, traza)
             if tracing_is_enabled():
                 st.caption("La misma traza está en smith.langchain.com, Tracing, con la etiqueta `app`.")
 
@@ -136,9 +141,26 @@ with t5:
             st.session_state.filas = evaluar(s, CASOS)
         st.session_state.revisiones += len(CASOS)
     if st.session_state.filas:
-        st.dataframe(st.session_state.filas, width="stretch")
-        decision, acierto = decidir_go(st.session_state.filas, umbral)
+        filas = st.session_state.filas
+        st.dataframe([{k: v for k, v in f.items() if k not in ("salida", "traza")} for f in filas], width="stretch")
+        decision, acierto = decidir_go(filas, umbral)
         (st.success if decision == "GO" else st.error)(f"Acierto {acierto:.0%}. Decisión: {decision}")
+        st.markdown("**Detalle por caso**")
+        i = st.radio("Caso", range(len(filas)), horizontal=True,
+                     format_func=lambda i: f"{i + 1}. {filas[i]['caso']} ({'acierto' if filas[i]['acierto'] else 'falla'})")
+        f = filas[i]
+        c = st.columns(4)
+        c[0].metric("Esperado", f["esperado"])
+        c[1].metric("Obtenido", f["accion"])
+        c[2].metric("Política", "cumple" if f["politica"] else "falla")
+        c[3].metric("Pasos", f["pasos"], f"{f['segundos']} s", delta_color="off")
+        izq, der = st.columns(2)
+        with izq:
+            st.markdown("**Salida estándar**")
+            st.json(f["salida"])
+        with der:
+            st.markdown("**Árbol de la traza**")
+            mostrar_traza(f["sku"], f["traza"])
 
 st.divider()
 st.caption(f"Inventario: {len(INVENTARIO)} SKU. Un agente sin trazas no se puede auditar; sin evaluación, no se promueve a LIVE.")

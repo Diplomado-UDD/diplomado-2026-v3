@@ -244,7 +244,8 @@ def evaluar(sistema, casos):
         filas.append({"caso": caso["nombre"], "sku": caso["sku"], "esperado": caso["esperado"], "accion": salida.action,
                       "acierto": salida.action == caso["esperado"], "politica": cumple_politica(sistema.ordenes),
                       "evidencia": len(salida.evidence) >= 2, "pasos": pasos,
-                      "segundos": round(time.perf_counter() - inicio, 2)})
+                      "segundos": round(time.perf_counter() - inicio, 2),
+                      "salida": salida.model_dump(), "traza": list(sistema.traza)})
     return filas
 
 
